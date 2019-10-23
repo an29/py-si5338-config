@@ -1,14 +1,15 @@
 # py-si5338-config
 
-##Synopsys
+## Synopsys
+
   [Si5338](https://www.silabs.com/documents/public/data-sheets/Si5338.pdf) clock generator configuration utility.
 
-##Requirements
+## Requirements
 
   * Python2.7
   * python-smbus
 
-##How to use
+## How to use
 
 1. Generate C-header file using [Clock Software Development Tools](https://www.silabs.com/products/development-tools/software/clock).
 2. Remove comments, parentheses and declaration. The settings file should look like this (addr,value,mask,):
